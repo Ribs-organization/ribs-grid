@@ -1,0 +1,28 @@
+@import "variables";
+@import "mixinxs";
+
+.ribs-container {
+	width: 100%;
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	.row {
+		box-sizing: border-box;
+		display: flex;
+		flex: 0 1 auto;
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+		@include grid-column("cxs");
+		
+		@media all and #{$media-mobile} {
+			@include grid-column("csm");
+		}
+		
+		@media all and #{$media-tablet} {
+			@include grid-column("cmd");
+		}
+	}
+}

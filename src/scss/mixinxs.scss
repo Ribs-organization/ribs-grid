@@ -1,0 +1,9 @@
+@mixin grid-column($name) {
+	@for $i from 1 through 12 {
+		.#{$name}-#{$i} {
+			flex-basis: (8.33%*$i);
+			max-width: 8.33%*$i;
+			padding: 0 $half-gutter-width;
+		}
+	}
+}

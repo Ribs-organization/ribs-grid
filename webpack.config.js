@@ -4,7 +4,8 @@ const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   entry: {
-    style: './src/scss/style.scss'
+    style: './src/scss/style.scss',
+    example: './src/scss/example.scss'
   },
   module: {
     rules: [{
