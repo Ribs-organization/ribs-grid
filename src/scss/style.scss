@@ -14,24 +14,23 @@
 		flex: 0 1 auto;
 		flex-direction: row;
 		flex-wrap: wrap;
-		
-		@include alignment("xs");
-		@include alignment("sm");
-		@include alignment("md");
-		@include alignment("lg");
-		
+
 		@include grid-column("cxs");
-		
+		@include alignment("xs");
+
 		@media all and #{$media-mobile} {
 			@include grid-column("csm");
+			@include alignment("sm");
 		}
 		
 		@media all and #{$media-tablet} {
 			@include grid-column("cmd");
+			@include alignment("md");
 		}
 
 		@media all and #{$media-desktop} {
 			@include grid-column("clg");
+			@include alignment("lg");
 		}
 	}
 }

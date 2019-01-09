@@ -20,15 +20,15 @@
 }
 
 @mixin alignment($name) {
-	.start-#{$name} {
+	&.start-#{$name} {
 		justify-content: flex-start;
 	}
 
-	.center-#{$name} {
+	&.center-#{$name} {
 		justify-content: center;
 	}
 
-	.end-#{$name} {
+	&.end-#{$name} {
 		justify-content: flex-end;
 	}
 }

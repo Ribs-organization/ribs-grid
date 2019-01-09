@@ -1,6 +1,6 @@
 $gutter-width: 1.875rem;
 $half-gutter-width: calc(#{$gutter-width}/2);
 
-$media-mobile: "(min-width: 48em)";
-$media-tablet: "(min-width: 64em)";
-$media-desktop: "(min-width: 75em)";
+$media-mobile: "(min-width: 576px)";
+$media-tablet: "(min-width: 768px)";
+$media-desktop: "(min-width: 992px)";
