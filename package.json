@@ -22,12 +22,13 @@
   },
   "homepage": "https://github.com/Ribs-organization/ribs-grid#readme",
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
     "css-loader": "^2.1.0",
-    "webpack": "^4.28.3",
     "mini-css-extract-plugin": "^0.5.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.1"
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1"
   },
   "dependencies": {}
 }

@@ -15,6 +15,11 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		
+		@include alignment("xs");
+		@include alignment("sm");
+		@include alignment("md");
+		@include alignment("lg");
+		
 		@include grid-column("cxs");
 		
 		@media all and #{$media-mobile} {
@@ -23,6 +28,10 @@
 		
 		@media all and #{$media-tablet} {
 			@include grid-column("cmd");
+		}
+
+		@media all and #{$media-desktop} {
+			@include grid-column("clg");
 		}
 	}
 }
