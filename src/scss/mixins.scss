@@ -43,4 +43,12 @@
 	&.bottom-#{$name} {
 		align-items: flex-end;
 	}
+
+	&.around-#{$name} {
+		justify-content: space-around;
+	}
+
+	&.between-#{$name} {
+		justify-content: space-between;
+	}
 }
