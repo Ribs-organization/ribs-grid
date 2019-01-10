@@ -31,4 +31,16 @@
 	&.end-#{$name} {
 		justify-content: flex-end;
 	}
+
+	&.top-#{$name} {
+		align-items: flex-start;
+	}
+
+	&.middle-#{$name} {
+		align-items: center;
+	}
+
+	&.bottom-#{$name} {
+		align-items: flex-end;
+	}
 }
