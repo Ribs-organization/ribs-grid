@@ -17,3 +17,8 @@ body {
 	background: #606060 !important;
 	margin: 0.7rem 0;
 }
+
+.row > div .height-alignment {
+	background: #ccc;
+	min-height: 120px;
+}
