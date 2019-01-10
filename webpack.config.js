@@ -1,6 +1,5 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   entry: {
@@ -19,11 +18,9 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      // Options similar to the same options in webpackOptions.output
-      // both options are optional
-      filename: devMode ? 'css/[name].css' : 'css/[name].[hash].css',
-      chunkFilename: devMode ? 'css/[id].css' : 'css/[id].[hash].css',
-    })
+      filename: 'css/[name].min.css',
+      chunkFilename:'css/[id].min.css',
+    }),
   ],
   optimization: {
     minimizer: [
