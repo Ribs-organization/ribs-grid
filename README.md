@@ -1,4 +1,10 @@
 # ribs-grid
+![Dependencies](https://img.shields.io/david/Ribs-organization/ribs-grid.svg)
+![Dev dependencies](https://img.shields.io/david/dev/Ribs-organization/ribs-grid.svg)
+![Peer dependencies](https://img.shields.io/david/peer/Ribs-organization/ribs-grid.svg)
+![npm](https://img.shields.io/npm/v/ribs-grid.svg)
+![Licence](https://img.shields.io/github/license/Ribs-organization/ribs-grid.svg)
+
 Scss flexbox grid system
 
 ## How install it ?
