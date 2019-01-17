@@ -1,6 +1,6 @@
 {
   "name": "ribs-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scss flexbox grid system can be used with sass or css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

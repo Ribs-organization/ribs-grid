@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixins";
 
-.ribs-container {
+.ribs-container, .ribs-container-fluid {
 	width: 100%;
 	
 	* {
@@ -32,5 +32,21 @@
 			@include grid-column("clg");
 			@include alignment("lg");
 		}
+	}
+}
+
+.ribs-container {
+	margin: auto;
+	
+	@media all and #{$media-mobile} {
+		width: 100%;
+	}
+	
+	@media all and #{$media-tablet} {
+		width: 100%;
+	}
+	
+	@media all and (min-width: 1215px) {
+		width: 75rem;
 	}
 }
