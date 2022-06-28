@@ -1,0 +1,7 @@
+version: "3.5"
+
+services:
+  node:
+    image: registry.gitlab.com/dev-up/docker/node:latest
+    volumes:
+      - ./:/app
