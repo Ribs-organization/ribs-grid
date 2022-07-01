@@ -1,3 +1,21 @@
 .text-center {
 	text-align: center;
 }
+
+@for $i from 1 through 20 {
+	.mt-#{$i} {
+		margin-top: #{$i}rem;
+	}
+	
+	.mr-#{$i} {
+		margin-right: #{$i}rem;
+	}
+	
+	.mb-#{$i} {
+		margin-bottom: #{$i}rem;
+	}
+	
+	.ml-#{$i} {
+		margin-left: #{$i}rem;
+	}
+}
