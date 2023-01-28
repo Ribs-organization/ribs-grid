@@ -2,6 +2,26 @@
 	text-align: center;
 }
 
+.gutter-b {
+	margin-bottom: $gutter-width;
+}
+
+.mt-05 {
+	margin-top: 0.5rem;
+}
+
+.mr-05 {
+	margin-right: 0.5rem;
+}
+
+.mb-05 {
+	margin-bottom: 0.5rem;
+}
+
+.ml-05 {
+	margin-left: 0.5rem;
+}
+
 @for $i from 1 through 20 {
 	.mt-#{$i} {
 		margin-top: #{$i}rem;
