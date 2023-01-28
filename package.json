@@ -1,6 +1,6 @@
 {
   "name": "ribs-grid",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Scss flexbox grid system can be used with sass or css",
   "main": "dist/css/style.min.css",
   "style": "dist/css/style.min.css",
