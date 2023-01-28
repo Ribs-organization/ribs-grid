@@ -5,7 +5,9 @@
 .ribs-container, .ribs-container-fluid {
 	width: 98.6%;
 	padding: 0 1rem;
-	
+}
+
+.ribs-container, .ribs-container-fluid, .ribs-grid {
 	* {
 		box-sizing: border-box;
 	}
