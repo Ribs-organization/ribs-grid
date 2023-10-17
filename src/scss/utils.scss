@@ -22,7 +22,11 @@
 	margin-left: 0.5rem;
 }
 
-@for $i from 1 through 20 {
+@for $i from 0 through 20 {
+	.m-#{$i} {
+		margin: #{$i}rem;
+	}
+	
 	.mt-#{$i} {
 		margin-top: #{$i}rem;
 	}
@@ -36,6 +40,26 @@
 	}
 	
 	.ml-#{$i} {
-		margin-left: #{$i}rem;
+		padding-left: #{$i}rem;
+	}
+	
+	.p-#{$i} {
+		padding: #{$i}rem;
+	}
+	
+	.pt-#{$i} {
+		padding-top: #{$i}rem;
+	}
+	
+	.pr-#{$i} {
+		padding-right: #{$i}rem;
+	}
+	
+	.pb-#{$i} {
+		padding-bottom: #{$i}rem;
+	}
+	
+	.pl-#{$i} {
+		padding-left: #{$i}rem;
 	}
 }
